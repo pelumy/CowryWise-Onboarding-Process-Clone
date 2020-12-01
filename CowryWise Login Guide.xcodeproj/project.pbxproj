@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042975772529D255000C8773 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042975762529D255000C8773 /* MainNavigationController.swift */; };
+		042B07352521B9F0004595EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B07342521B9F0004595EE /* AppDelegate.swift */; };
+		042B07372521B9F0004595EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B07362521B9F0004595EE /* SceneDelegate.swift */; };
+		042B07392521B9F0004595EE /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B07382521B9F0004595EE /* LandingPageViewController.swift */; };
+		042B073E2521B9F1004595EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042B073D2521B9F1004595EE /* Assets.xcassets */; };
+		042B07412521B9F1004595EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042B073F2521B9F1004595EE /* LaunchScreen.storyboard */; };
+		042B074D2521BAE2004595EE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B074C2521BAE2004595EE /* Extensions.swift */; };
+		042B074F2521BBC1004595EE /* LandingPageCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B074E2521BBC1004595EE /* LandingPageCellView.swift */; };
+		042B07512521BC2E004595EE /* LandingPageCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B07502521BC2E004595EE /* LandingPageCellModel.swift */; };
+		042B0757252297F5004595EE /* SigningupWithDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B0756252297F5004595EE /* SigningupWithDetailsViewController.swift */; };
+		042B075B25234A67004595EE /* TextFieldHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B075A25234A67004595EE /* TextFieldHelpers.swift */; };
+		042B075F25238E3E004595EE /* SetUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B075E25238E3E004595EE /* SetUsernameViewController.swift */; };
+		042B07612523B9D1004595EE /* EmailConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B07602523B9D1004595EE /* EmailConfirmationViewController.swift */; };
+		042B07632523C04F004595EE /* CheckEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B07622523C04F004595EE /* CheckEmailViewController.swift */; };
+		042B07672523C5D7004595EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B07662523C5D7004595EE /* LoginViewController.swift */; };
+		042B07692523DA32004595EE /* WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B07682523DA32004595EE /* WelcomePageViewController.swift */; };
+		042B077025249A6E004595EE /* LandingPageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B076F25249A6E004595EE /* LandingPageExtensions.swift */; };
+		042B07742524B773004595EE /* LoginViewControllerProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B07732524B773004595EE /* LoginViewControllerProperties.swift */; };
+		042B07762524BBCB004595EE /* WelcomePageProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B07752524BBCB004595EE /* WelcomePageProperties.swift */; };
+		042B07782524C3B4004595EE /* EmailConfirmationPageProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B07772524C3B4004595EE /* EmailConfirmationPageProperties.swift */; };
+		042B077A2524C880004595EE /* SigningupProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B07792524C880004595EE /* SigningupProperties.swift */; };
+		042B077C2524D3DE004595EE /* SetUsernameProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B077B2524D3DE004595EE /* SetUsernameProperties.swift */; };
+		042B077E2524DAFE004595EE /* CheckEmailProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B077D2524DAFE004595EE /* CheckEmailProperties.swift */; };
+		042B078425263BD2004595EE /* ProfilePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042B078325263BD2004595EE /* ProfilePageViewController.swift */; };
+		043450322528A70A00CB62BA /* ProfilePageProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043450312528A70A00CB62BA /* ProfilePageProperties.swift */; };
+		043450362528D73A00CB62BA /* FormValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043450352528D73A00CB62BA /* FormValidation.swift */; };
+		0498CB24252687B20040A4F9 /* ProfilePageCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498CB23252687B20040A4F9 /* ProfilePageCellView.swift */; };
+		0498CB2625270A860040A4F9 /* ProfilePageDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498CB2525270A860040A4F9 /* ProfilePageDataModel.swift */; };
+		0498CB2A25272C8A0040A4F9 /* ProfileResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498CB2925272C8A0040A4F9 /* ProfileResponseModel.swift */; };
+		0498CB2C25272D760040A4F9 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498CB2B25272D760040A4F9 /* StringConstants.swift */; };
+		0498CB312527300E0040A4F9 /* ProfileResponseDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498CB302527300E0040A4F9 /* ProfileResponseDataLoader.swift */; };
+		0498CB33252730950040A4F9 /* ProfileResponseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498CB32252730950040A4F9 /* ProfileResponseProtocol.swift */; };
+		0498CB352527C7410040A4F9 /* LoginDataGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498CB342527C7410040A4F9 /* LoginDataGetter.swift */; };
+		0498CB382527D2680040A4F9 /* LoginDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498CB372527D2680040A4F9 /* LoginDataProtocol.swift */; };
+		0498CB3A2527D3170040A4F9 /* LoginDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498CB392527D3170040A4F9 /* LoginDataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042975762529D255000C8773 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		042B07312521B9F0004595EE /* CowryWise Login Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CowryWise Login Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042B07342521B9F0004595EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		042B07362521B9F0004595EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		042B07382521B9F0004595EE /* LandingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
+		042B073D2521B9F1004595EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042B07402521B9F1004595EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042B07422521B9F1004595EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042B074C2521BAE2004595EE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		042B074E2521BBC1004595EE /* LandingPageCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageCellView.swift; sourceTree = "<group>"; };
+		042B07502521BC2E004595EE /* LandingPageCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageCellModel.swift; sourceTree = "<group>"; };
+		042B0756252297F5004595EE /* SigningupWithDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigningupWithDetailsViewController.swift; sourceTree = "<group>"; };
+		042B075A25234A67004595EE /* TextFieldHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldHelpers.swift; sourceTree = "<group>"; };
+		042B075E25238E3E004595EE /* SetUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUsernameViewController.swift; sourceTree = "<group>"; };
+		042B07602523B9D1004595EE /* EmailConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConfirmationViewController.swift; sourceTree = "<group>"; };
+		042B07622523C04F004595EE /* CheckEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckEmailViewController.swift; sourceTree = "<group>"; };
+		042B07662523C5D7004595EE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		042B07682523DA32004595EE /* WelcomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewController.swift; sourceTree = "<group>"; };
+		042B076F25249A6E004595EE /* LandingPageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageExtensions.swift; sourceTree = "<group>"; };
+		042B07732524B773004595EE /* LoginViewControllerProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerProperties.swift; sourceTree = "<group>"; };
+		042B07752524BBCB004595EE /* WelcomePageProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageProperties.swift; sourceTree = "<group>"; };
+		042B07772524C3B4004595EE /* EmailConfirmationPageProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailConfirmationPageProperties.swift; sourceTree = "<group>"; };
+		042B07792524C880004595EE /* SigningupProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigningupProperties.swift; sourceTree = "<group>"; };
+		042B077B2524D3DE004595EE /* SetUsernameProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUsernameProperties.swift; sourceTree = "<group>"; };
+		042B077D2524DAFE004595EE /* CheckEmailProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckEmailProperties.swift; sourceTree = "<group>"; };
+		042B078325263BD2004595EE /* ProfilePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageViewController.swift; sourceTree = "<group>"; };
+		043450312528A70A00CB62BA /* ProfilePageProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageProperties.swift; sourceTree = "<group>"; };
+		043450352528D73A00CB62BA /* FormValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidation.swift; sourceTree = "<group>"; };
+		0498CB23252687B20040A4F9 /* ProfilePageCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageCellView.swift; sourceTree = "<group>"; };
+		0498CB2525270A860040A4F9 /* ProfilePageDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePageDataModel.swift; sourceTree = "<group>"; };
+		0498CB2925272C8A0040A4F9 /* ProfileResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileResponseModel.swift; sourceTree = "<group>"; };
+		0498CB2B25272D760040A4F9 /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
+		0498CB302527300E0040A4F9 /* ProfileResponseDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileResponseDataLoader.swift; sourceTree = "<group>"; };
+		0498CB32252730950040A4F9 /* ProfileResponseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileResponseProtocol.swift; sourceTree = "<group>"; };
+		0498CB342527C7410040A4F9 /* LoginDataGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataGetter.swift; sourceTree = "<group>"; };
+		0498CB372527D2680040A4F9 /* LoginDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataProtocol.swift; sourceTree = "<group>"; };
+		0498CB392527D3170040A4F9 /* LoginDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042B072E2521B9F0004595EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042B07282521B9F0004595EE = {
+			isa = PBXGroup;
+			children = (
+				042B07332521B9F0004595EE /* CowryWise Login Guide */,
+				042B07322521B9F0004595EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042B07322521B9F0004595EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042B07312521B9F0004595EE /* CowryWise Login Guide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042B07332521B9F0004595EE /* CowryWise Login Guide */ = {
+			isa = PBXGroup;
+			children = (
+				042B07342521B9F0004595EE /* AppDelegate.swift */,
+				042B07362521B9F0004595EE /* SceneDelegate.swift */,
+				042975762529D255000C8773 /* MainNavigationController.swift */,
+				042B07482521BA18004595EE /* Model */,
+				042B07492521BA27004595EE /* View */,
+				042B074A2521BA37004595EE /* Controller */,
+				0498CB2D25272E5F0040A4F9 /* Networking */,
+				043450342528D71000CB62BA /* Validation */,
+				042B074B2521BA4B004595EE /* Helpers */,
+				042B073D2521B9F1004595EE /* Assets.xcassets */,
+				042B073F2521B9F1004595EE /* LaunchScreen.storyboard */,
+				042B07422521B9F1004595EE /* Info.plist */,
+			);
+			path = "CowryWise Login Guide";
+			sourceTree = "<group>";
+		};
+		042B07482521BA18004595EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				042B07502521BC2E004595EE /* LandingPageCellModel.swift */,
+				0498CB2525270A860040A4F9 /* ProfilePageDataModel.swift */,
+				0498CB2925272C8A0040A4F9 /* ProfileResponseModel.swift */,
+				0498CB392527D3170040A4F9 /* LoginDataModel.swift */,
+				0498CB2B25272D760040A4F9 /* StringConstants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		042B07492521BA27004595EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				042B074E2521BBC1004595EE /* LandingPageCellView.swift */,
+				0498CB23252687B20040A4F9 /* ProfilePageCellView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		042B074A2521BA37004595EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				042B076E25249A3A004595EE /* LandingPage Scene */,
+				042B07642523C52D004595EE /* SignUp Scenes */,
+				042B07652523C578004595EE /* Login Scenes */,
+				042B078225263B9D004595EE /* ProfilePage Scene */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		042B074B2521BA4B004595EE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				042B074C2521BAE2004595EE /* Extensions.swift */,
+				042B075A25234A67004595EE /* TextFieldHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		042B07642523C52D004595EE /* SignUp Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				042B07812524E7D8004595EE /* Properties */,
+				042B07602523B9D1004595EE /* EmailConfirmationViewController.swift */,
+				042B0756252297F5004595EE /* SigningupWithDetailsViewController.swift */,
+				042B075E25238E3E004595EE /* SetUsernameViewController.swift */,
+				042B07622523C04F004595EE /* CheckEmailViewController.swift */,
+			);
+			path = "SignUp Scenes";
+			sourceTree = "<group>";
+		};
+		042B07652523C578004595EE /* Login Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				042B07802524E7A4004595EE /* Properties */,
+				042B07662523C5D7004595EE /* LoginViewController.swift */,
+				042B07682523DA32004595EE /* WelcomePageViewController.swift */,
+			);
+			path = "Login Scenes";
+			sourceTree = "<group>";
+		};
+		042B076E25249A3A004595EE /* LandingPage Scene */ = {
+			isa = PBXGroup;
+			children = (
+				042B07382521B9F0004595EE /* LandingPageViewController.swift */,
+				042B076F25249A6E004595EE /* LandingPageExtensions.swift */,
+			);
+			path = "LandingPage Scene";
+			sourceTree = "<group>";
+		};
+		042B07802524E7A4004595EE /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				042B07732524B773004595EE /* LoginViewControllerProperties.swift */,
+				042B07752524BBCB004595EE /* WelcomePageProperties.swift */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		042B07812524E7D8004595EE /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				042B07792524C880004595EE /* SigningupProperties.swift */,
+				042B077B2524D3DE004595EE /* SetUsernameProperties.swift */,
+				042B07772524C3B4004595EE /* EmailConfirmationPageProperties.swift */,
+				042B077D2524DAFE004595EE /* CheckEmailProperties.swift */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		042B078225263B9D004595EE /* ProfilePage Scene */ = {
+			isa = PBXGroup;
+			children = (
+				043450332528A71300CB62BA /* Properties */,
+				042B078325263BD2004595EE /* ProfilePageViewController.swift */,
+			);
+			path = "ProfilePage Scene";
+			sourceTree = "<group>";
+		};
+		043450332528A71300CB62BA /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				043450312528A70A00CB62BA /* ProfilePageProperties.swift */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		043450342528D71000CB62BA /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				043450352528D73A00CB62BA /* FormValidation.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		0498CB2D25272E5F0040A4F9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0498CB362527C7750040A4F9 /* Protocols */,
+				0498CB302527300E0040A4F9 /* ProfileResponseDataLoader.swift */,
+				0498CB342527C7410040A4F9 /* LoginDataGetter.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0498CB362527C7750040A4F9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0498CB32252730950040A4F9 /* ProfileResponseProtocol.swift */,
+				0498CB372527D2680040A4F9 /* LoginDataProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042B07302521B9F0004595EE /* CowryWise Login Guide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042B07452521B9F1004595EE /* Build configuration list for PBXNativeTarget "CowryWise Login Guide" */;
+			buildPhases = (
+				042B072D2521B9F0004595EE /* Sources */,
+				042B072E2521B9F0004595EE /* Frameworks */,
+				042B072F2521B9F0004595EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CowryWise Login Guide";
+			productName = "CowryWise Login Guide";
+			productReference = 042B07312521B9F0004595EE /* CowryWise Login Guide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042B07292521B9F0004595EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = chavicodes;
+				TargetAttributes = {
+					042B07302521B9F0004595EE = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 042B072C2521B9F0004595EE /* Build configuration list for PBXProject "CowryWise Login Guide" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042B07282521B9F0004595EE;
+			productRefGroup = 042B07322521B9F0004595EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042B07302521B9F0004595EE /* CowryWise Login Guide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042B072F2521B9F0004595EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042B07412521B9F1004595EE /* LaunchScreen.storyboard in Resources */,
+				042B073E2521B9F1004595EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042B072D2521B9F0004595EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042B077E2524DAFE004595EE /* CheckEmailProperties.swift in Sources */,
+				042B07392521B9F0004595EE /* LandingPageViewController.swift in Sources */,
+				0498CB382527D2680040A4F9 /* LoginDataProtocol.swift in Sources */,
+				042975772529D255000C8773 /* MainNavigationController.swift in Sources */,
+				0498CB352527C7410040A4F9 /* LoginDataGetter.swift in Sources */,
+				0498CB2C25272D760040A4F9 /* StringConstants.swift in Sources */,
+				042B075F25238E3E004595EE /* SetUsernameViewController.swift in Sources */,
+				0498CB2A25272C8A0040A4F9 /* ProfileResponseModel.swift in Sources */,
+				0498CB2625270A860040A4F9 /* ProfilePageDataModel.swift in Sources */,
+				042B077025249A6E004595EE /* LandingPageExtensions.swift in Sources */,
+				0498CB33252730950040A4F9 /* ProfileResponseProtocol.swift in Sources */,
+				042B074F2521BBC1004595EE /* LandingPageCellView.swift in Sources */,
+				042B07512521BC2E004595EE /* LandingPageCellModel.swift in Sources */,
+				0498CB24252687B20040A4F9 /* ProfilePageCellView.swift in Sources */,
+				042B07612523B9D1004595EE /* EmailConfirmationViewController.swift in Sources */,
+				043450362528D73A00CB62BA /* FormValidation.swift in Sources */,
+				043450322528A70A00CB62BA /* ProfilePageProperties.swift in Sources */,
+				042B077A2524C880004595EE /* SigningupProperties.swift in Sources */,
+				042B077C2524D3DE004595EE /* SetUsernameProperties.swift in Sources */,
+				042B0757252297F5004595EE /* SigningupWithDetailsViewController.swift in Sources */,
+				042B07632523C04F004595EE /* CheckEmailViewController.swift in Sources */,
+				042B07762524BBCB004595EE /* WelcomePageProperties.swift in Sources */,
+				0498CB3A2527D3170040A4F9 /* LoginDataModel.swift in Sources */,
+				042B07352521B9F0004595EE /* AppDelegate.swift in Sources */,
+				042B07692523DA32004595EE /* WelcomePageViewController.swift in Sources */,
+				042B07372521B9F0004595EE /* SceneDelegate.swift in Sources */,
+				042B078425263BD2004595EE /* ProfilePageViewController.swift in Sources */,
+				042B074D2521BAE2004595EE /* Extensions.swift in Sources */,
+				042B07782524C3B4004595EE /* EmailConfirmationPageProperties.swift in Sources */,
+				0498CB312527300E0040A4F9 /* ProfileResponseDataLoader.swift in Sources */,
+				042B07672523C5D7004595EE /* LoginViewController.swift in Sources */,
+				042B07742524B773004595EE /* LoginViewControllerProperties.swift in Sources */,
+				042B075B25234A67004595EE /* TextFieldHelpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		042B073F2521B9F1004595EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042B07402521B9F1004595EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042B07432521B9F1004595EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		042B07442521B9F1004595EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042B07462521B9F1004595EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CowryWise Login Guide/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chavicodes.CowryWise-Login-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042B07472521B9F1004595EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "CowryWise Login Guide/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chavicodes.CowryWise-Login-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042B072C2521B9F0004595EE /* Build configuration list for PBXProject "CowryWise Login Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042B07432521B9F1004595EE /* Debug */,
+				042B07442521B9F1004595EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042B07452521B9F1004595EE /* Build configuration list for PBXNativeTarget "CowryWise Login Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042B07462521B9F1004595EE /* Debug */,
+				042B07472521B9F1004595EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042B07292521B9F0004595EE /* Project object */;
+}
